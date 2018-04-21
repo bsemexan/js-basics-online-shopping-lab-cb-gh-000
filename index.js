@@ -61,4 +61,5 @@ function placeOrder(cardNumber) {
   if (!cardNumber){
     return `Sorry, we don't have a credit card on file for you.`;
   }
+  return `Your total cost is $67.50178612871129, which will be charged to the card ${cardNumber}.`
 }
